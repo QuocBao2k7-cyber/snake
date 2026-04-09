@@ -1,0 +1,50 @@
+﻿:root {
+  --bg1: #0b0f1e;
+  --bg2: #121a34;
+  --glow: #5fe0ff;
+  --panel: rgba(20, 24, 45, 0.94);
+  --panel-edge: rgba(150, 190, 255, 0.6);
+  --text: #e9f2ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(1200px 800px at 20% 20%, #1d2f6a 0%, #0b0f1e 55%, #06070d 100%);
+  color: var(--text);
+  font-family: "Bahnschrift", "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+#app {
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  padding: 18px;
+}
+
+#game {
+  width: min(95vw, 1542px);
+  height: auto;
+  border-radius: 18px;
+  border: 2px solid rgba(120, 190, 255, 0.45);
+  box-shadow: 0 34px 90px rgba(0,0,0,0.6), 0 0 50px rgba(95,224,255,0.35), 0 0 120px rgba(95,224,255,0.2);
+  outline: 1px solid rgba(255,255,255,0.18);
+  background: linear-gradient(135deg, #0b1021, #0f1a36);
+}
+
+#hint {
+  font-size: 15px;
+  color: #d9ecff;
+  opacity: 0.9;
+  text-align: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(6, 10, 22, 0.65);
+  border: 1px solid rgba(120, 190, 255, 0.35);
+  display: none;
+}

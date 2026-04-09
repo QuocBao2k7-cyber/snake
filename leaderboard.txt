@@ -1,0 +1,10 @@
+bao,6,EASY
+bao,6,INFINITE
+bao,5,EASY
+Bao,5,EASY
+bao test 1234 ,5,EASY
+bao,4,EASY
+Bao,4,EASY
+bao tesst 159753,3,EASY
+bao,2,NORMAL
+Bao test 1234 ,2,EASY
